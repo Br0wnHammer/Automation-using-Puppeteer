@@ -21,7 +21,7 @@ git clone https://github.com/your-username/puppeteer-basic-automation.git
 ```
 2. Navigate to the project directory:
 ```bash
-cd orangelabs task
+cd Automation-using-Puppeteer
 ```
 3. Install project dependencies:
 ```bash
