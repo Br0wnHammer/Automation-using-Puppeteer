@@ -17,7 +17,7 @@ Before getting started, make sure you have the following prerequisites installed
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/puppeteer-basic-automation.git
+git clone https://github.com/Br0wnHammer/Automation-using-Puppeteer.git
 ```
 2. Navigate to the project directory:
 ```bash
