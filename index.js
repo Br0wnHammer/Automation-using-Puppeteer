@@ -72,7 +72,7 @@ class SwapFormAutomation {
    */
   async selectRoute() {
     await this.page.waitForNetworkIdle(); // Wait for the network to be idle
-    const buttonsRoute = await this.page.$$('.sc-18d0abec-0'); // Find all elements with the class name ".sc-18d0abec-0" (buttons)
+    const buttonsRoute = await this.page.$$('.sc-d413ea6e-0'); // Find all elements with the class name ".sc-18d0abec-0" (buttons)
     await buttonsRoute[1].click(); // Click the second button
   }
 
@@ -84,7 +84,7 @@ class SwapFormAutomation {
     try {
       await this.launchBrowser(); // Launch the browser
       await this.openPage(); // Open the page and navigate to the swap website
-      await this.fillChainName('Arbitrum One'); // Fill the chain name
+      await this.fillChainName('Arbitrum'); // Fill the chain name
       await this.clearSellInput(); // Clear the "You Sell" input field
       await this.fillSellInput('12'); // Fill the "You Sell" input field
       await this.selectSellToken('Wrapped BTC'); // Select the token in the "You Sell" section
